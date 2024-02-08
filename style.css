@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    height: 100%;
+}
+
+aside {
+    background-color: #0284c7;
+    color: white;
+    padding: 20px;
+    width: 30vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+}
+
+header {
+    background-color: #666; 
+    color: white;
+    padding: 20px;
+    height: 15vh;
+}
+
+main {
+    background-color: #ddd;
+    padding: 20px;
+    flex-grow: 1; 
+    height: 100vh; 
+}
